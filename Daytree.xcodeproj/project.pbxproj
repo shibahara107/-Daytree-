@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925AAD7F1E449C9F004A69ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AAD7E1E449C9F004A69ED /* AppDelegate.swift */; };
+		925AAD811E449C9F004A69ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AAD801E449C9F004A69ED /* ViewController.swift */; };
+		925AAD841E449C9F004A69ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925AAD821E449C9F004A69ED /* Main.storyboard */; };
+		925AAD861E449C9F004A69ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925AAD851E449C9F004A69ED /* Assets.xcassets */; };
+		925AAD891E449C9F004A69ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925AAD871E449C9F004A69ED /* LaunchScreen.storyboard */; };
+		925AAD941E449CA0004A69ED /* DaytreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AAD931E449CA0004A69ED /* DaytreeTests.swift */; };
+		925AAD9F1E449CA0004A69ED /* DaytreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925AAD9E1E449CA0004A69ED /* DaytreeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925AAD901E449C9F004A69ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925AAD731E449C9F004A69ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925AAD7A1E449C9F004A69ED;
+			remoteInfo = Daytree;
+		};
+		925AAD9B1E449CA0004A69ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925AAD731E449C9F004A69ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925AAD7A1E449C9F004A69ED;
+			remoteInfo = Daytree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		925AAD7B1E449C9F004A69ED /* Daytree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Daytree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		925AAD7E1E449C9F004A69ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		925AAD801E449C9F004A69ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		925AAD831E449C9F004A69ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		925AAD851E449C9F004A69ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925AAD881E449C9F004A69ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		925AAD8A1E449C9F004A69ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925AAD8F1E449C9F004A69ED /* DaytreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaytreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925AAD931E449CA0004A69ED /* DaytreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaytreeTests.swift; sourceTree = "<group>"; };
+		925AAD951E449CA0004A69ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925AAD9A1E449CA0004A69ED /* DaytreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaytreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925AAD9E1E449CA0004A69ED /* DaytreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaytreeUITests.swift; sourceTree = "<group>"; };
+		925AADA01E449CA0004A69ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925AAD781E449C9F004A69ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925AAD8C1E449C9F004A69ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925AAD971E449CA0004A69ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925AAD721E449C9F004A69ED = {
+			isa = PBXGroup;
+			children = (
+				925AAD7D1E449C9F004A69ED /* Daytree */,
+				925AAD921E449CA0004A69ED /* DaytreeTests */,
+				925AAD9D1E449CA0004A69ED /* DaytreeUITests */,
+				925AAD7C1E449C9F004A69ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925AAD7C1E449C9F004A69ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925AAD7B1E449C9F004A69ED /* Daytree.app */,
+				925AAD8F1E449C9F004A69ED /* DaytreeTests.xctest */,
+				925AAD9A1E449CA0004A69ED /* DaytreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925AAD7D1E449C9F004A69ED /* Daytree */ = {
+			isa = PBXGroup;
+			children = (
+				925AAD7E1E449C9F004A69ED /* AppDelegate.swift */,
+				925AAD801E449C9F004A69ED /* ViewController.swift */,
+				925AAD821E449C9F004A69ED /* Main.storyboard */,
+				925AAD851E449C9F004A69ED /* Assets.xcassets */,
+				925AAD871E449C9F004A69ED /* LaunchScreen.storyboard */,
+				925AAD8A1E449C9F004A69ED /* Info.plist */,
+			);
+			path = Daytree;
+			sourceTree = "<group>";
+		};
+		925AAD921E449CA0004A69ED /* DaytreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				925AAD931E449CA0004A69ED /* DaytreeTests.swift */,
+				925AAD951E449CA0004A69ED /* Info.plist */,
+			);
+			path = DaytreeTests;
+			sourceTree = "<group>";
+		};
+		925AAD9D1E449CA0004A69ED /* DaytreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				925AAD9E1E449CA0004A69ED /* DaytreeUITests.swift */,
+				925AADA01E449CA0004A69ED /* Info.plist */,
+			);
+			path = DaytreeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925AAD7A1E449C9F004A69ED /* Daytree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925AADA31E449CA0004A69ED /* Build configuration list for PBXNativeTarget "Daytree" */;
+			buildPhases = (
+				925AAD771E449C9F004A69ED /* Sources */,
+				925AAD781E449C9F004A69ED /* Frameworks */,
+				925AAD791E449C9F004A69ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Daytree;
+			productName = Daytree;
+			productReference = 925AAD7B1E449C9F004A69ED /* Daytree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925AAD8E1E449C9F004A69ED /* DaytreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925AADA61E449CA0004A69ED /* Build configuration list for PBXNativeTarget "DaytreeTests" */;
+			buildPhases = (
+				925AAD8B1E449C9F004A69ED /* Sources */,
+				925AAD8C1E449C9F004A69ED /* Frameworks */,
+				925AAD8D1E449C9F004A69ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925AAD911E449C9F004A69ED /* PBXTargetDependency */,
+			);
+			name = DaytreeTests;
+			productName = DaytreeTests;
+			productReference = 925AAD8F1E449C9F004A69ED /* DaytreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		925AAD991E449CA0004A69ED /* DaytreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925AADA91E449CA0004A69ED /* Build configuration list for PBXNativeTarget "DaytreeUITests" */;
+			buildPhases = (
+				925AAD961E449CA0004A69ED /* Sources */,
+				925AAD971E449CA0004A69ED /* Frameworks */,
+				925AAD981E449CA0004A69ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925AAD9C1E449CA0004A69ED /* PBXTargetDependency */,
+			);
+			name = DaytreeUITests;
+			productName = DaytreeUITests;
+			productReference = 925AAD9A1E449CA0004A69ED /* DaytreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		925AAD731E449C9F004A69ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Yoshi;
+				TargetAttributes = {
+					925AAD7A1E449C9F004A69ED = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					925AAD8E1E449C9F004A69ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 925AAD7A1E449C9F004A69ED;
+					};
+					925AAD991E449CA0004A69ED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 925AAD7A1E449C9F004A69ED;
+					};
+				};
+			};
+			buildConfigurationList = 925AAD761E449C9F004A69ED /* Build configuration list for PBXProject "Daytree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 925AAD721E449C9F004A69ED;
+			productRefGroup = 925AAD7C1E449C9F004A69ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925AAD7A1E449C9F004A69ED /* Daytree */,
+				925AAD8E1E449C9F004A69ED /* DaytreeTests */,
+				925AAD991E449CA0004A69ED /* DaytreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925AAD791E449C9F004A69ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925AAD891E449C9F004A69ED /* LaunchScreen.storyboard in Resources */,
+				925AAD861E449C9F004A69ED /* Assets.xcassets in Resources */,
+				925AAD841E449C9F004A69ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925AAD8D1E449C9F004A69ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925AAD981E449CA0004A69ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925AAD771E449C9F004A69ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925AAD811E449C9F004A69ED /* ViewController.swift in Sources */,
+				925AAD7F1E449C9F004A69ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925AAD8B1E449C9F004A69ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925AAD941E449CA0004A69ED /* DaytreeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925AAD961E449CA0004A69ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925AAD9F1E449CA0004A69ED /* DaytreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925AAD911E449C9F004A69ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925AAD7A1E449C9F004A69ED /* Daytree */;
+			targetProxy = 925AAD901E449C9F004A69ED /* PBXContainerItemProxy */;
+		};
+		925AAD9C1E449CA0004A69ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925AAD7A1E449C9F004A69ED /* Daytree */;
+			targetProxy = 925AAD9B1E449CA0004A69ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		925AAD821E449C9F004A69ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925AAD831E449C9F004A69ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		925AAD871E449C9F004A69ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925AAD881E449C9F004A69ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		925AADA11E449CA0004A69ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		925AADA21E449CA0004A69ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925AADA41E449CA0004A69ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Daytree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shibahara.Daytree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		925AADA51E449CA0004A69ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Daytree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shibahara.Daytree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		925AADA71E449CA0004A69ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaytreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shibahara.DaytreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daytree.app/Daytree";
+			};
+			name = Debug;
+		};
+		925AADA81E449CA0004A69ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaytreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shibahara.DaytreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daytree.app/Daytree";
+			};
+			name = Release;
+		};
+		925AADAA1E449CA0004A69ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DaytreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shibahara.DaytreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Daytree;
+			};
+			name = Debug;
+		};
+		925AADAB1E449CA0004A69ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DaytreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shibahara.DaytreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Daytree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925AAD761E449C9F004A69ED /* Build configuration list for PBXProject "Daytree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925AADA11E449CA0004A69ED /* Debug */,
+				925AADA21E449CA0004A69ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925AADA31E449CA0004A69ED /* Build configuration list for PBXNativeTarget "Daytree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925AADA41E449CA0004A69ED /* Debug */,
+				925AADA51E449CA0004A69ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		925AADA61E449CA0004A69ED /* Build configuration list for PBXNativeTarget "DaytreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925AADA71E449CA0004A69ED /* Debug */,
+				925AADA81E449CA0004A69ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		925AADA91E449CA0004A69ED /* Build configuration list for PBXNativeTarget "DaytreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925AADAA1E449CA0004A69ED /* Debug */,
+				925AADAB1E449CA0004A69ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 925AAD731E449C9F004A69ED /* Project object */;
+}
